@@ -354,7 +354,7 @@ def getGetHigherScorer():
 
 ''' INICIALIZA PLAYER E INIMIGOS '''
 # Background
-animBackground = Animacao(surface,'spaceBackGround.png', 1, 1, 0, 0, 1)
+animBackground = Animacao(surface,'assets\images\spaceBackGround.png', 1, 1, 0, 0, 1)
 
 # Interface
 matchTimerFont = pygame.font.SysFont('Comic Sans MS', 40)
@@ -375,7 +375,7 @@ playerPosY  = 450
 playerSizeX = 30
 playerSizeY = 35
 movePlayer = MoveObj(velocity, dt, playerPosX)
-animPlayer = Animacao(surface,'playerStarship.png', 1, 1, 0, 0, 1)
+animPlayer = Animacao(surface,'assets\images\playerStarship.png', 1, 1, 0, 0, 1)
 
 # Player Missile             
 playerMissileEmitter = ParticleEmitter()
@@ -422,9 +422,9 @@ enemiesType2 = 24
 enemiesType3 = 12
 movEnemyVelX = 0.03
 movEnemyVelY = 10
-animEnemy1 = Animacao(surface,'enemySpaceship1.png', 1, 1, 0, 0, 1)
-animEnemy2 = Animacao(surface,'enemySpaceship2.png', 1, 1, 0, 0, 1)
-animEnemy3 = Animacao(surface,'enemySpaceship3.png', 1, 1, 0, 0, 1)
+animEnemy1 = Animacao(surface,'assets\images\enemySpaceship1.png', 1, 1, 0, 0, 1)
+animEnemy2 = Animacao(surface,'assets\images\enemySpaceship2.png', 1, 1, 0, 0, 1)
+animEnemy3 = Animacao(surface,'assets\images\enemySpaceship3.png', 1, 1, 0, 0, 1)
 
 # Enemy Missile
 enemyMissileEmitter = ParticleEmitter()
@@ -462,14 +462,14 @@ plrPropellerChangeColor = (220, 0, 0)
 plrPropellerChangeColorVelocity = (0.05, 0.05, 0.05)
 
 # MotherShips
-motherShip1 = Animacao(surface,'motherShip1.png', 1, 1, 0, 0, 1)
+motherShip1 = Animacao(surface,'assets\images\motherShip1.png', 1, 1, 0, 0, 1)
 motherShip1SizeX = 70
 motherShip1SizeY = 50
 motherShip1PosX, motherShip1PosY = -1500, 0
 motherShip1VelocityX = 0.2
 motherShip1IsDestroyed = False
 
-motherShip2 = Animacao(surface,'motherShip2.png', 8, 8, 2, 0, 60)
+motherShip2 = Animacao(surface,'assets\images\motherShip2.png', 8, 8, 2, 0, 60)
 motherShip2SizeX = 70
 motherShip2SizeY = 50
 motherShip2PosX, motherShip2PosY = -1500, 0
