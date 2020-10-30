@@ -1,9 +1,0 @@
-Ericson,610
-Paulo,100
-Pedro,0
-Paulo,1070
-Paul,1680
-Paulo,0
-eu,1150
-Paul,730
-Gato,120
