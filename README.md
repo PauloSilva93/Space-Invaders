@@ -6,6 +6,7 @@
 * Destaques:
     * Suporta animações com sprite sheet
     * Sistema de partículas dinâmico (explosões e propulsor da nave)
+    * Salvamento automático de score
 
 * Requisitos:
   * Python 3.6.8 (O pygame até esta data (06/11/2020) não está atualizado para a última versão do Python (3.9), por isso é necessária esta versão).
